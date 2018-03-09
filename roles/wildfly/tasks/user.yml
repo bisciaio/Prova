@@ -1,0 +1,4 @@
+- name: creazione utenza
+  user:
+    name: wildfly
+    systemt: yes

@@ -1,0 +1,3 @@
+- name: install the latest version of Apache
+  yum:
+    name: java-1.8.0-openjdk.x86_64

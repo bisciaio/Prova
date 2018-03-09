@@ -8,3 +8,9 @@
     src: /opt/wildfly-11.0.0.Final.zip
     dest: /opt
     remote_src: yes
+
+- name: utente wildfly
+  user:
+    name: wildfly
+    shell: /bin/bash
+    system: yes

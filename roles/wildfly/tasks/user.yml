@@ -1,4 +1,4 @@
 - user:
     name: wildfly
     shell: /bin/bash
-    systemt: yes
+    system: yes

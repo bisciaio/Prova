@@ -1,5 +1,4 @@
-- name: creazione utenza
-  user:
+- user:
     name: wildfly
     shell: /bin/bash
     systemt: yes

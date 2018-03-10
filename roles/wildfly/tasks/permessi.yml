@@ -1,6 +1,0 @@
-- name: permessi cartella wildfly
-  file:
-    path: /opt/wildfly-11.0.0.Final
-    owner: wildfly
-    group: wildfly
-    recurse: yes

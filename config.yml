@@ -1,6 +1,7 @@
-- hosts: slave
+- hosts: master
   become: true
   roles:
     - init
     - wildfly
     - master
+ 

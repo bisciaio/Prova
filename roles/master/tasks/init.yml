@@ -1,5 +1,5 @@
 - name: spostare init-d in /opt/wildfly-11../bin
-  command: cp /opt/wildfly-11.0.0.Final/docs/contrib/scripts/init.d /opt/wildfly-11.0.0.Final/bin
+  command: cp -R /opt/wildfly-11.0.0.Final/docs/contrib/scripts/init.d /opt/wildfly-11.0.0.Final/bin
 
 - name: init.d
   template:
@@ -8,5 +8,5 @@
     owner: wildfly
     group: wildfly
 
-- name: reload daemon
+- name: reload daemon_reload
   systemd: daemon_reload=yes

@@ -1,0 +1,6 @@
+- name: Configurazione wildfly.conf
+  template:
+    src: wildfly.conf
+    dest: /etc/default/wildfly.conf
+    owner: wildfly
+    group: wildfly

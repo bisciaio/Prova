@@ -1,6 +1,6 @@
 - name: Configurazione script avvio wildfly.service
   template:
     src: wildfly.service
-    dest: /etc/system/systemd/wildfly.service
+    dest: /etc/systemd/system/wildfly.service
     owner: wildfly
     group: wildfly

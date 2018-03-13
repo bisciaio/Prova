@@ -4,4 +4,10 @@
     - init
     - wildfly
     - master
+
+- hosts: slave
+  become: true
+  roles:
+    - init
+    - wildfly
     - slave

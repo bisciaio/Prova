@@ -3,4 +3,4 @@
 - import_tasks: host.yml
 - import_tasks: wildfly.yml
 - import_tasks: wildfly.service.yml
-# - import_tasks: init.yml
+- import_tasks: init.yml

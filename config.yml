@@ -2,12 +2,12 @@
   become: true
   roles:
     - init
-#    - wildfly
-#    - master
+    - wildfly
+    - master
 
 - hosts: slave
   become: true
   roles:
-#    - init
-#    - wildfly
-#    - slave
+    - init
+    - wildfly
+    - slave

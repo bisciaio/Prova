@@ -2,3 +2,4 @@
 - import_tasks: firewall.yml
 - import_tasks: selinux.yml
 - import_tasks: jdk.yml
+- import_tasks: riavvio.yml

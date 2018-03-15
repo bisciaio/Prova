@@ -2,4 +2,3 @@
 - import_tasks: wildfly.conf.yml
 - import_tasks: wildfly.service.yml
 - import_tasks: init.yml
-- import_tasks: add-user.yml

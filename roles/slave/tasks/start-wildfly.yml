@@ -1,0 +1,5 @@
+- name: Enable wildfly to be started at boot
+  service:
+    name: wildfly
+    enabled: yes
+    state: started

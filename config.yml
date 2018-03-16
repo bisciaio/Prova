@@ -5,6 +5,7 @@
     - wildfly
     - master
     - driver
+    - driver-master
 
 - hosts: slave
   become: true

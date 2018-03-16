@@ -4,6 +4,7 @@
     - init
     - wildfly
     - master
+    - driver
 
 - hosts: slave
   become: true
@@ -11,3 +12,4 @@
     - init
     - wildfly
     - slave
+    - driver
